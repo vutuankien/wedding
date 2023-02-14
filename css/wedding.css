@@ -1,0 +1,270 @@
+/* * {
+      margin: 0;
+      padding: 0;
+} */
+
+#main {
+      background-color: #ffdddd !important;
+      height: auto
+}
+
+.header-image {
+      background-image: url(./images-html/wedding_couple.jpg);
+      width: 100%;
+      height: 800px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      filter: grayscale(50%);
+}
+
+.header-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.header-text>h1 {
+      font-size: 64px;
+      text-align: center;
+      letter-spacing: 4px;
+      height: 96px;
+      line-height: 96px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #ffff;
+      font-weight: 400;
+}
+
+.header-text>p {
+      font-size: 30px;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 4px;
+      height: 45px;
+      line-height: 45px;
+      color: #ffff;
+      font-weight: 400px;
+}
+
+/* phần slier */
+
+.container {
+      padding-top: 64px;
+}
+
+.slider-text {
+      width: 1100px;
+      height: 54px;
+      text-align: center !important;
+      color: #757575 !important;
+      font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 400;
+      margin: 10px 0px;
+      font-size: 36px;
+      letter-spacing: 4px;
+      line-height: 1.5;
+}
+
+.slider-image {
+      width: 980px;
+      height: 550px;
+      padding: 32px 0px;
+      margin-left: auto;
+      margin-right: auto;
+      vertical-align: middle;
+      filter: grayscale(50%);
+      padding-left: 30px;
+      margin-bottom: 32px;
+}
+
+img {
+      box-shadow: 5px 7px #a3a1a1;
+      border-radius: 25px;
+}
+
+.slider-paragraph {
+      width: 1100px !important;
+      height: 150px !important;
+      margin-top: 12px;
+      margin-bottom: 12px;
+}
+
+.slider-paragraph>p {
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+      font-style: italic;
+      font-weight: 400;
+      color: black;
+      line-height: 30px;
+}
+
+.button {
+      width: 980px;
+      height: 60px;
+      border-radius: 25px;
+
+}
+
+.button>p {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+
+.button-center {
+      padding: 12px 24px;
+      background-color: #757575;
+      font-size: 15px;
+      line-height: 30px;
+      text-decoration: none;
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+
+/* phần content */
+.content-img {
+      background: url(./images-html/flowers.jpg);
+      width: 100%;
+      height: 745px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+
+.content-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.text {
+      font-size: 56px;
+      font-family: 'Times New Roman', Times, serif;
+      height: 96px;
+      line-height: 96px;
+      letter-spacing: 4px;
+      text-transform: capitalize;
+      color: #ffff;
+      font-weight: 400;
+}
+
+.para {
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      height: 48px;
+      line-height: 48px;
+      letter-spacing: 4px;
+      text-transform: lowercase;
+      color: #ffff;
+      font-weight: 400;
+}
+
+/* phần sub-content */
+
+.sub-content-text{
+      margin: 70px 0px;
+      color:#757575;
+      font-weight: bolder;
+      font-size: 36px;
+      font-family: "Raleway", sans-serif;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+}
+.sub-content-image{
+      border:none;
+      filter: grayscale(50%);
+      box-shadow: 2px 2px #757575;
+      border-radius: 50px;
+}
+/* .right-text ,.left-text{
+      text-align: center;
+}
+.right-text{
+      float: left;
+} */
+.first-text,.second-text{
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+}
+.h3-text{
+      font-size: 30px;
+      font-weight: 400;
+      color:black;
+      margin:10px 0px;
+}
+.p-text{
+      font-size: 18px;
+      font-weight: 400;
+      color:black;
+      line-height: 2;
+      margin:15px 0px
+}
+
+
+/* footer-top */
+.ft-text{
+      text-align: center;
+      font-size: 36px;
+      font-weight: 300;
+      font-family: 'Courier New', Courier, monospace;
+      margin:10px 0px;
+      letter-spacing: 3px;
+}
+.ft-p{
+      font-size: 18px !important;
+      text-align: center;
+      font-weight: 300;
+      font-family: 'Courier New', Courier, monospace;
+      margin:18px 0px;
+      letter-spacing: 3px;
+      line-height: 2;
+}
+.ft-button {
+      width: 980px;
+      height: 60px;
+      border-radius: 25px;
+      margin:20px 0px;
+
+}
+
+.ft-button>p {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+
+.ft-button-center {
+      padding: 12px 24px;
+      background-color: #757575;
+      font-size: 15px;
+      line-height: 30px;
+      text-decoration: none;
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+.ft-button>.ft-button-center:hover{
+      text-decoration: none;
+      color:black;
+}
+
+/* .btn-size{
+      width: 1032px;
+      height: 64px;;
+      vertical-align: middle;
+}
+.btn{
+      margin-left: auto;
+      margin-right: auto;
+} */
